@@ -33,7 +33,7 @@ module.exports = function (opts) {
           res.json({ version: version });
         },
         html: function () {
-          res.text(versionString);
+          res.set('Content-type', 'text/plain').send(versionString);
         }
       });
     }
