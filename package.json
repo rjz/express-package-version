@@ -1,6 +1,6 @@
 {
   "name": "express-package-version",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express middleware for serving package.json version",
   "main": "index.js",
   "scripts": {
